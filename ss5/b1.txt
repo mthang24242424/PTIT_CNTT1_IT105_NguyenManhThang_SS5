@@ -1,0 +1,21 @@
+1. Khách hàng (Actor)
+- Vai trò: Người tương tác với hệ thống
+- Hành động: 
+    + Truy cập vào web
+    + Chọn sản phẩm, đặt hàng
+    + Cung cấp thông tin thanh toán
+    + Xác nhận hoặc hủy giao dịch
+
+2. Website (Object)
+- Vai trò: Là trung gian xử lý giữa khách hàng và hệ thống thanh toán
+- Hành động: 
+    + Hiển thị giao diện mua hàng cho người dùng
+    + Tiếp  nhận yêu cầu đặt hàng từ khách hàng
+    + GỬi thông tin thanh toán và gửi phản hồi
+
+3. Hệ thống thanh toán (Object)
+- Vai trò: Xác thực và xử lý giao dịch tài chính
+- Hành động: 
+    + Nhận yêu cầu thanh toán từ Website
+    + Xác thực thông tin  thẻ tài khoản khách hàng
+    + Thực hiện giao dịch với ngân hàng
